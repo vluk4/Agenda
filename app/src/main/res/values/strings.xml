@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Agenda</string>
+    <string name="victor">Victor</string>
+    <string name="daniel">Daniel</string>
+    <string name="xico">Xico</string>
+    <string name="botao">Botao</string>
+    <string name="interruptor">Interruptor</string>
+    <string name="hello_world">hello world!</string>
+    <string name="ronaldo">Ronaldo</string>
+    <string name="jefersson">Jefersson</string>
+    <string name="felipe">Felipe</string>
+    <string name="eoq">Nome</string>
+    <string name="endereco">Endereço</string>
+    <string name="tsxsacsce">Telefone</string>
+    <string name="site">Site</string>
+    <string name="salvar">Salvar</string>
+    <string name="email">Email</string>
+    <string name="novo_aluno">Novo Aluno</string>
+    <string name="plus">+</string>
+    <string name="ok">Ok</string>
+    <string name="github">GitHub</string>
+    <string name="foto_perfil">FOTO_PERFIL</string>
+    <string name="nome">Nome</string>
+    <string name="_40028922">40028922</string>
+    <string name="name">nome</string>
+    <string name="telefone">Telefone</string>
+    <string name="fon">fon</string>
+    <string name="numero">numero</string>
+    <string name="enviar_notas">Enviar Notas</string>
+</resources>
