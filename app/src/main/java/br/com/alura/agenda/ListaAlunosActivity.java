@@ -143,10 +143,13 @@ public class ListaAlunosActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()){
-            case R.menu.menu_lista_alunos :
+        switch (item.getItemId()) {
+            case R.menu.menu_lista_alunos:
                 Toast.makeText(this, "Dados enviados!", Toast.LENGTH_SHORT).show();
                 break;
+            case R.id.menu_baixar_provas:
+                Intent intent = new Intent(this, ProvaActivity.class);
+                startActivity(intent);
         }
         return super.onOptionsItemSelected(item);
     }

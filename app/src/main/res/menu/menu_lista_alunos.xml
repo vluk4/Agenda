@@ -9,4 +9,8 @@
         android:icon="@drawable/ic_enviar"
         app:showAsAction="always"/>
 
+    <item android:id="@+id/menu_baixar_provas"
+        android:title="@string/bsixar_provas"
+        android:icon="@drawable/test"
+        app:showAsAction="ifRoom"/>
 </menu>

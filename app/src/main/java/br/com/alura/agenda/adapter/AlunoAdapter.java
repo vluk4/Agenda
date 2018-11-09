@@ -55,13 +55,22 @@ public class AlunoAdapter extends BaseAdapter {
             view = inflater.inflate(R.layout.list_item, parent, false);
         }
 
-        TextView campoNome = (TextView) view.findViewById(R.id.item_nome);
+        TextView campoNome = view.findViewById(R.id.item_nome);
         campoNome.setText(aluno.getNome());
 
-        TextView campoTelefone = (TextView) view.findViewById(R.id.item_numero);
+        TextView campoEndereco = view.findViewById(R.id.item_endereco);
+        if(campoEndereco != null){
+            campoEndereco.setText(aluno.getEndereco());
+        }
+        TextView campoGitHub = view.findViewById(R.id.item_github);
+        if (campoGitHub != null){
+            campoGitHub.setText(aluno.getGitHub());
+        }
+
+        TextView campoTelefone = view.findViewById(R.id.item_numero);
         campoTelefone.setText(aluno.getTelefone());
 
-        ImageView campoFoto = (ImageView) view.findViewById(R.id.item_foto);
+        ImageView campoFoto = view.findViewById(R.id.item_foto);
         String caminhoFoto = aluno.getCaminhoFoto();
         if (caminhoFoto != null) {
             Bitmap bitmap = BitmapFactory.decodeFile(caminhoFoto);
