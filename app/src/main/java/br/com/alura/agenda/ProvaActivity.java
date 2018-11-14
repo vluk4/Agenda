@@ -1,5 +1,6 @@
 package br.com.alura.agenda;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -38,6 +39,10 @@ public class ProvaActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 Prova prova = (Prova) adapterView.getItemAtPosition(i);
                 Toast.makeText(ProvaActivity.this, "Clicou na prova de " + prova, Toast.LENGTH_SHORT).show();
+
+                Intent vaiParaProva = new Intent(ProvaActivity.this, DetalhesProvaActivity.class);
+                vaiParaProva.putExtra("prova", prova);
+                startActivity(vaiParaProva);
             }
         });
 

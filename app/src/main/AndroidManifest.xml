@@ -34,7 +34,7 @@
         </activity>
         <activity
             android:name=".FormularioActivity"
-            android:label="Formulario"></activity>
+            android:label="Formulario" />
 
         <receiver
             android:name=".reciever.SMSReceiver"
@@ -44,7 +44,8 @@
             </intent-filter>
         </receiver>
 
-        <activity android:name=".ProvaActivity"></activity>
+        <activity android:name=".ProvaActivity" />
+        <activity android:name=".DetalhesProvaActivity"></activity>
     </application>
 
 </manifest>

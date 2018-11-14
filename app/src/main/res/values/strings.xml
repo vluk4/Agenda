@@ -28,4 +28,6 @@
     <string name="numero">numero</string>
     <string name="enviar_notas">Enviar Notas</string>
     <string name="bsixar_provas">Bsixar Provas</string>
+    <string name="materia">Materia</string>
+    <string name="data">Data</string>
 </resources>
